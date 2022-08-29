@@ -1310,11 +1310,14 @@ p {
   position: relative;
   margin-top: 25px;
   padding: 15px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
   background-color: #f7f8f9;
   -webkit-transition: all .3s;
   transition: all .3s;
   overflow: hidden;
-  height: 455px;
   box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
   border: solid #fff 10px;
 }
@@ -1344,19 +1347,12 @@ p {
 .product_section .box .detail-box h5 {
   font-size: 18px;
   margin-top: 10px;
-
 }
 
 .product_section .box .detail-box h6 {
   margin-top: 10px;
   color: #002c3e;
   font-weight: 600;
-  position: absolute;
-  bottom: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
   text-align: center;
 }
 
@@ -1594,17 +1590,6 @@ responsive
   .tabs-content{
     display: none;
   }
-  .product_section .box {
-    position: relative;
-    margin-top: 25px;
-    padding: 15px 35px;
-    background-color: #f7f8f9;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    overflow: hidden;
-    box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
-    border: solid #fff 10px;
-  }
 
   .main-banner .caption h2 {
     font-size: 35px;
@@ -1638,16 +1623,5 @@ responsive
 @media (max-width: 450px) {
   .feature-item .right-content a.text-button {
     margin-left: 130px;
-  }
-  .product_section .box {
-    position: relative;
-    margin-top: 25px;
-    padding: 15px 35px;
-    background-color: #f7f8f9;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    overflow: hidden;
-    box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
-    border: solid #fff 10px;
   }
 }
