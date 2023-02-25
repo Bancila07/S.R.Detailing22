@@ -511,6 +511,25 @@ header
     padding-left: 12px;
     padding-right: 12px;
   }
+  @media (max-width: 1200px) {
+    .header-area {
+      background-color: #f7f7f7;
+      padding: 0px 15px;
+      height: 80px;
+      box-shadow: none;
+      text-align: center;
+    }
+  }
+  @media (max-width: 1200px) {
+    .header-area .menu-trigger {
+      display: block !important;
+    }
+  }
+  @media (max-width: 1200px) {
+    .header-area .main-nav {
+      overflow: hidden;
+    }
+  }
   .header-area .main-nav:before {
     display: none;
   }
@@ -639,6 +658,7 @@ header
     display: flex !important;
   }
 }
+
 
 
 /*
